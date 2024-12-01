@@ -17,13 +17,16 @@
         }
 
         .app-container {
-            background-color: #3f3c94;
-            padding: 30px;
-            border-radius: 15px;
+            position: relative;
+            z-index: 1;
+            width: 80%;
             text-align: center;
-            width: 350px;
-            color: #fff;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            margin: 50px auto;
+            border: 2px solid #ff0080;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 20px #ff0080;
         }
 
         .app-container h1 {
@@ -34,13 +37,13 @@
         .developer {
             margin-bottom: 20px;
             font-size: 14px;
-            color: #ddd;
+            color: #;
         }
 
         .progress-circle {
             width: 120px;
             height: 120px;
-            background-color: #524bb3;
+            background-color: #ff0080;
             border-radius: 50%;
             margin: 20px auto;
             display: flex;
@@ -48,22 +51,24 @@
             align-items: center;
             font-size: 22px;
             font-weight: bold;
+            box-shadow: 0 0 20px #ff0080;
         }
 
         .ad-button {
             padding: 10px 20px;
             font-size: 16px;
             margin: 10px 0;
-            background-color: #00aaff;
+            background-color: #ff0080;
             color: #fff;
             border: none;
             border-radius: 8px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            box-shadow: 0 0 30px #ff0080;
         }
 
         .ad-button:hover {
-            background-color: #008ecc;
+            background-color: #ff0080;
         }
 
         .toggle-container {
@@ -74,6 +79,7 @@
             align-items: center;
             justify-content: center;
             gap: 10px;
+            
         }
 
         .toggle-container label {
@@ -118,7 +124,8 @@
         }
 
         input:checked + .slider {
-            background-color: #28a745;
+            background-color: #ff0080;
+            box-shadow: 0 0 20px #ff0080;
         }
 
         input:checked + .slider:before {
